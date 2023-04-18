@@ -1,32 +1,26 @@
-ALGORITHM Checkpoint_Algorithms_and_itselements__nombre_de_lettre
-
+var str = "Hello How are you doing today."
+ALGORITHM readSentence
 VAR
-    laphrase : STRING;
-    nombre_de_lettre : INTEGER;
-    sum :=0 ;
-BEGIN
-    nombre_de_lettre := sum + Length ('laphrase')
-END
-
-
-ALGORITHM Checkpoint_Algorithms_and_itselements__nombre_de_lettre
-
-VAR
-    laphrase : STRING;
-    nombre_espace : INTEGER;
-    sum :=0 ;
-BEGIN
-    Encours _ juste pour avancer dans le cours
-END
-
-
-ALGORITHM Checkpoint_Algorithms_and_itselements__nombre_de_lettre
-
-VAR
-    laphrase : STRING;
-    nombre_voyelle : INTEGER:
-    sum :=0 ;
+    i,NB_Voyels:INTEGER:=0;
+    NB_WORDS:INTEGER:=0;
+    str:STRING;
 
 BEGIN
-    Encours _ juste pour avancer dans le cours la phase 2
+    Write("Type the sentence str")
+    Read(str)
+
+    WHILE (str[i]<>".") DO
+        IF (str[i]=" ") THEN
+            NB_WORDS:= NB_WORDS+1
+        END_IF
+        IF (str[i]="a" OR str[i]="e" OR str[i]="i" OR str[i]="o" OR str[i]="u" OR str[i]="y") THEN
+            NB_Voyels:= NB_Voyels+1
+        END_IF
+
+        i:=i+1
+    END_WHILE
+Write("the number of words is:",NB_WORDS+1)
+Write("the number of voyels is:",NB_Voyels)
+Write("the lenght of str is:",i+1)
+
 END
