@@ -1,0 +1,32 @@
+ALGORITHM Checkpoint_Algorithms_and_itselements__nombre_de_lettre
+
+VAR
+    laphrase : STRING;
+    nombre_de_lettre : INTEGER;
+    sum :=0 ;
+BEGIN
+    nombre_de_lettre := sum + Length ('laphrase')
+END
+
+
+ALGORITHM Checkpoint_Algorithms_and_itselements__nombre_de_lettre
+
+VAR
+    laphrase : STRING;
+    nombre_espace : INTEGER;
+    sum :=0 ;
+BEGIN
+    Encours _ juste pour avancer dans le cours
+END
+
+
+ALGORITHM Checkpoint_Algorithms_and_itselements__nombre_de_lettre
+
+VAR
+    laphrase : STRING;
+    nombre_voyelle : INTEGER:
+    sum :=0 ;
+
+BEGIN
+    Encours _ juste pour avancer dans le cours la phase 2
+END
